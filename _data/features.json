@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
+    "title": "免费咨询",
+    "description": "新客户将获得优先并且免费的咨询服务。",
     "image": "images/features/noun_branding_1885335.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "提供方案",
+    "description": "也许这个方案会让你心喜若狂。",
     "image": "images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "后续迭代",
+    "description": "每次的迭代将会是产品成长的印记。",
     "image": "images/features/noun_3d modeling_1885342.svg"
   }
 ]

@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: 联系我们
 layout: default
 bodyClass: page-contact
 ---
@@ -8,7 +8,7 @@ bodyClass: page-contact
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1>Contact</h1>
+        <h1>联系我们</h1>
       </div>
     </div>
   </div>
@@ -17,54 +17,25 @@ bodyClass: page-contact
   <div class="row">
     <div class="col-12 col-md-8">
       <ul>
-        <li><strong>Phone: </strong>{{ site.data.contact.phone }}</li>
-        <li><strong>Email: </strong><a href="mailto:{{ site.data.contact.email }}">
+        <li><strong>联系电话: </strong>{{ site.data.contact.phone }}</li>
+        <li><strong>电子邮件: </strong><a href="mailto:{{ site.data.contact.email }}">
             {{ site.data.contact.email }}</a></li>
         {% if site.data.contact.address %}
-        <li><strong>Address: </strong>{{ site.data.contact.address }}</li>
+        <li><strong>官方主页: </strong><a href="https:{{ site.data.contact.address }}">
+            {{ site.data.contact.address }}</a></li>
         {% endif %}
       </ul>
-      <h4 class="mt-4">Business Hours</h4>
+      <h4 class="mt-4">工作时间</h4>
       <table class="table table-sm opening-hours-table">
         <tr>
-          <td class="day font-weight-bold">Monday</td>
+          <td class="day font-weight-bold">周一至周五</td>
           <td class="opens">8:30am</td>
           <td>-</td>
           <td class="closes">5:00pm</td>
         </tr>
         <tr>
-          <td class="day font-weight-bold">Tuesday</td>
-          <td class="opens">8:30am</td>
-          <td>-</td>
-          <td class="closes">5:00pm</td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Wednesday</td>
-          <td class="opens">8:30am</td>
-          <td>-</td>
-          <td class="closes">5:00pm</td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Thursday</td>
-          <td class="opens">8:30am</td>
-          <td>-</td>
-          <td class="closes">5:00pm</td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Friday</td>
-          <td class="opens">8:30am</td>
-          <td>-</td>
-          <td class="closes">5:00pm</td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Saturday</td>
-          <td class="opens">Closed</td>
-          <td></td>
-          <td class="closes"></td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Sunday</td>
-          <td class="opens">Closed</td>
+          <td class="day font-weight-bold">周六和周日</td>
+          <td class="opens">-</td>
           <td> </td>
           <td class="closes"></td>
         </tr>
